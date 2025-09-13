@@ -8,4 +8,7 @@ cd mcp-course
 
 uv add "huggingface_hub[mcp]"
 uv run huggingface-cli login
+
+# run with TUN mode if you use VPN client like Clash Verge
+uv run tiny-agents run agent.json
 ```
